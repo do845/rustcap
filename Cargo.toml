@@ -1,0 +1,12 @@
+[package]
+name = "rustcap"
+version = "0.1.0"
+authors = ["marts <noinvitett@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+reqwest = "*"
+serde_json = "*"
+serde = "*"
+serde_derive = "*"
+rand = "*"
