@@ -156,7 +156,7 @@ fn check_captcha(gid: String, sol: String, client: reqwest::Client) -> Result<bo
     struct Valid {
         bCaptchaMatches: bool,
     }
-    let params = [("captchagid", gid), ("captcha_text", sol), ("email", "bencode07@illegal.loli.sh".to_string())];
+    let params = [("captchagid", gid), ("captcha_text", sol), ("email", "bencode07@illegal.loli.su".to_string())];
     let mut verify = client.post("https://store.steampowered.com/join/verifycaptcha/")
         .form(&params)
         .send()?;
